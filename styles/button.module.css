@@ -14,4 +14,5 @@
 .white {
     background: white;
     color: #10b981;
+    border: 1px solid #10b981;
 }
