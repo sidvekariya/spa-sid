@@ -1,8 +1,9 @@
+import Hero from "@/components/Hero";
 import Head from "next/head";
 
 export default function Home() {
     return (
-        <>
+        <div>
             <Head>
                 <title>Create Next App</title>
                 <meta
@@ -15,6 +16,10 @@ export default function Home() {
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-        </>
+
+            <div>
+                <Hero />
+            </div>
+        </div>
     );
 }
