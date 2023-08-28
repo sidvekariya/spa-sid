@@ -1,0 +1,17 @@
+.button {
+    padding: 0.875rem 1.75rem;
+    border: none;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.green {
+    background: linear-gradient(0deg, #059669, #36dca5 100%);
+    color: white;
+}
+
+.white {
+    background: white;
+    color: #10b981;
+}
