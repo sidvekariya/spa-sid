@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import MassageTypes from "@/components/MassageTypes";
+import Product from "@/components/Product";
 import Head from "next/head";
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
             <div>
                 <Hero />
                 <MassageTypes />
+                <Product />
             </div>
         </div>
     );
