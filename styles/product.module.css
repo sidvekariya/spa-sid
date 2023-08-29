@@ -4,7 +4,7 @@
 
 .lightGreen {
     height: 30.3125rem;
-    width: 43.25rem;
+    width: 43.75rem;
     background: #ecfdf5;
     position: absolute;
     top: 5.75rem;
@@ -36,7 +36,7 @@
 .para {
     margin-top: 1.5rem;
     font-weight: 400;
-    font-size: 1.1rem;
+    font-size: 1.125rem;
     color: #047857;
     width: 31.5rem;
     line-height: 1.68rem;
@@ -45,7 +45,7 @@
 .ingredients {
     margin-top: 1.25rem;
     color: #047857;
-    font-size: 1.1rem;
+    font-size: 1.125rem;
     width: 29.8rem;
     font-weight: 600px;
     line-height: 1.68rem;
@@ -59,7 +59,7 @@
 .btn {
     margin-top: 1.5rem;
     color: #047857;
-    font-size: 1.1rem;
+    font-size: 1.125em;
     line-height: 140%;
     font-weight: 500;
 }

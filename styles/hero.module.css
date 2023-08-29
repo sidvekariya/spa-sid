@@ -1,12 +1,13 @@
 .heroContent {
     display: flex;
     width: 100%;
+    height: 49.875rem;
 }
 
 .left {
     margin-left: 6.5rem;
     padding-top: 3.5rem;
-    width: 50%;
+    padding-bottom: 14.5rem;
 }
 
 .titleLogo {
@@ -52,13 +53,14 @@
 }
 
 .right {
-    width: 50%;
     position: relative;
+    margin-left: 6.8125rem;
+    height: 100%;
 }
 
 .girl {
     width: 169%;
-    height: auto;
+    height: 798px;
     display: block;
 }
 
@@ -66,16 +68,16 @@
     width: 27.1875em;
     height: 9.3806rem;
     position: absolute;
-    top: 34.5rem;
-    right: 18.7rem;
+    top: 36.7rem;
+    right: 20.5rem;
 }
 
 .whiteDiv {
     display: flex;
-    width: 28rem;
+    width: 29rem;
     height: 6.75rem;
     background-color: white;
-    gap: 1.375rem;
+    gap: 2.375rem;
 }
 
 .text1 {
@@ -100,11 +102,11 @@
 
 .greenDiv {
     position: absolute;
-    top: 20%;
+    top: 23%;
     display: flex;
     flex-direction: column;
-    width: 26.7rem;
-    height: 6rem;
+    width: 27.635rem;
+    height: 6.5rem;
     color: white;
     padding-top: 0.875rem;
     background: linear-gradient(0deg, #059669, #10b981 100%);
@@ -116,7 +118,7 @@
     width: 20.0625rem;
     height: 4.3125rem;
     margin-left: 3.625rem;
-    gap: 2.5rem;
+    gap: 1.8rem;
     font-weight: 600;
     line-height: 140%;
 }

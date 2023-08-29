@@ -12,31 +12,36 @@ const PlayfairDisplay = Playfair_Display({ subsets: ["latin"] });
 const Card = ({ massage }) => {
     return (
         <div className={styles.card}>
-            <h2 style={PlayfairDisplay.style} className={styles.name}>
-                {massage.massageName}
-            </h2>
-            <Image
-                className={styles.line}
-                src={massage.line}
-                alt=""
-                width={300}
-                height={200}
-            />
-            <div style={worksans.style} className={styles.both}>
-                <p className={styles.price}>Rp. {massage.price}</p>
-                <p className={styles.number}> {massage.massageNumber}</p>
-            </div>
-            <Image
-                className={styles.media}
-                src={massage.media}
-                alt={massage.massageName}
-                width={300}
-                height={200}
-            />
-            <div style={worksans.style} className={styles.end}>
-                <div className={styles.text}>Select package</div>
-                <div className={styles.arrow}>
-                    <BsArrowRight />
+            <div className={styles.content}>
+                <h2 style={PlayfairDisplay.style} className={styles.name}>
+                    {massage.massageName}
+                </h2>
+                <Image
+                    className={styles.line}
+                    src={massage.line}
+                    alt=""
+                    width={300}
+                    height={200}
+                />
+                <div style={worksans.style} className={styles.both}>
+                    <p className={styles.price}>Rp. {massage.price}</p>
+                    <p className={styles.number}> {massage.massageNumber}</p>
+                </div>
+                <div className={styles.mediaDiv}>
+                    <Image
+                        className={styles.media}
+                        src={massage.media}
+                        alt={massage.massageName}
+                        width={300}
+                        height={200}
+                    />
+                </div>
+
+                <div style={worksans.style} className={styles.end}>
+                    <div className={styles.endText}>Select package</div>
+                    <div className={styles.arrow}>
+                        <BsArrowRight />
+                    </div>
                 </div>
             </div>
         </div>

@@ -26,25 +26,25 @@ const Footer = () => {
                 </div>
                 <div className={styles.about}>
                     <div className={styles.h4}>About</div>
-                    <div>Profile</div>
-                    <div>Services</div>
-                    <div>Pricing</div>
+                    <div className={styles.name}>Profile</div>
+                    <div className={styles.name}>Services</div>
+                    <div className={styles.name}>Pricing</div>
                 </div>
                 <div className={styles.articles}>
                     <div className={styles.h4}>Articles</div>
-                    <div>Healthline</div>
-                    <div>News</div>
-                    <div>Promos</div>
+                    <div className={styles.name}>Healthline</div>
+                    <div className={styles.name}>News</div>
+                    <div className={styles.name}>Promos</div>
                 </div>
                 <div className={styles.contact}>
-                    <div className={styles.h4}>Contact</div>
+                    <div className={styles.h3}>Contact</div>
                     <div className={styles.phoneNumber}>
                         <HiOutlinePhone />
-                        <div> (0351) 2799 2331</div>
+                        <div className={styles.name2}> (0351) 2799 2331</div>
                     </div>
                     <div className={styles.whatsapp}>
                         <BsWhatsapp />
-                        <div>0812 2000 9009</div>
+                        <div className={styles.name2}>0812 2000 9009</div>
                     </div>
                 </div>
             </div>

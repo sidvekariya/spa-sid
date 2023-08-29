@@ -57,8 +57,10 @@ const Hero = () => {
 
                     <div className={styles.greenDiv}>
                         <div className={styles.time}>
-                            <div>20 :</div>
-                            <div>10 :</div>
+                            <div>20 </div>
+                            <div>:</div>
+                            <div>10 </div>
+                            <div>:</div>
                             <div>05</div>
                         </div>
                         <div className={styles.timeText}>
