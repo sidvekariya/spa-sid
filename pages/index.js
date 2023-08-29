@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import MassageTypes from "@/components/MassageTypes";
 import Product from "@/components/Product";
@@ -23,6 +24,7 @@ export default function Home() {
                 <Hero />
                 <MassageTypes />
                 <Product />
+                <Footer />
             </div>
         </div>
     );

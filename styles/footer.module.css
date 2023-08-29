@@ -1,0 +1,120 @@
+.footer {
+    display: flex;
+    color: green;
+    margin-top: 12.5625rem;
+    margin-left: 6.18rem;
+    margin-bottom: 4.18rem;
+}
+
+.left {
+    width: 70%;
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.img {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.logoText {
+    width: 50%;
+    font-size: 1.2rem;
+    color: #059669;
+}
+
+.copyright {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: #064e3b;
+    font-weight: 500;
+}
+
+.h4 {
+    color: #064e3b;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.about {
+    margin-left: 2.5625rem;
+    display: flex;
+    flex-direction: column;
+    color: #064e3b;
+    font-size: 1.2rem;
+    gap: 1.25rem;
+}
+.articles {
+    margin-left: 2.5625rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    gap: 1.25rem;
+    color: #064e3b;
+}
+
+.contact {
+    margin-left: 2.5625rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    color: #064e3b;
+    gap: 1.1rem;
+}
+
+.phoneNumber {
+    display: flex;
+    color: #064e3b;
+    gap: 1rem;
+}
+.whatsapp {
+    display: flex;
+    color: #064e3b;
+    gap: 1rem;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.email {
+    display: flex;
+    gap: 5rem;
+}
+
+.emailText {
+    opacity: 0.6;
+}
+
+.input {
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    height: 1.5rem;
+    font-size: 1rem;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.input:hover {
+    text-decoration: underline;
+    font-size: 1.1rem;
+}
+
+.underLine {
+    background-color: rgba(4, 120, 87, 1);
+    width: 301px;
+    height: 0.1rem;
+    margin-top: -2rem;
+    margin-right: 100px;
+}
