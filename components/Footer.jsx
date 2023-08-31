@@ -49,7 +49,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className={styles.right}>
-                <div className={styles.h4}>Get early promos</div>
+                <div className={styles.promosText}>Get early promos</div>
                 <div className={styles.email}>
                     <div className={styles.emailText}>
                         <input
@@ -58,7 +58,9 @@ const Footer = () => {
                             placeholder="YOUR EMAIL"
                         />
                     </div>
-                    <BsArrowRight />
+                    <div className={styles.arrow}>
+                        <BsArrowRight />
+                    </div>
                 </div>
                 <div className={styles.underLine}></div>
             </div>

@@ -1,4 +1,5 @@
 .cardList {
+    height: 45.25rem;
     display: flex;
 }
 
@@ -9,7 +10,6 @@
     box-sizing: border-box;
     color: white;
     width: 30rem;
-    height: 45.25rem;
     padding: 6.125rem 2.8125rem;
 }
 
@@ -23,16 +23,16 @@
     line-height: 3.5rem;
     font-weight: 700;
     margin-right: 6.12rem;
-    letter-spacing: 0.045rem;
+    letter-spacing: 0.72px;
     color: #ecfdf5;
-    width: 21.625rem;
+    width: 21.3125rem;
     height: 6.75rem;
 }
 
 .line {
     width: 24.125rem;
     height: auto;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
 }
 
 .both {
@@ -52,6 +52,7 @@
     justify-content: center;
     align-items: center;
     font-weight: 500;
+    padding: 0 7px;
 }
 .number {
     font-size: 1.125rem;

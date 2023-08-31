@@ -103,9 +103,9 @@
 .right {
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;
+    gap: 2.9375rem;
     width: 18.8125rem;
-    height: 6.3125rem;
+    height: 9rem;
 }
 
 .email {
@@ -113,16 +113,20 @@
     gap: 5rem;
 }
 
-.emailText {
-    opacity: 0.6;
+.promosText {
+    color: #064e3b;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 140%;
 }
 
 .input {
     border: none;
     text-decoration: none;
     cursor: pointer;
-    height: 1.5rem;
     font-size: 0.875rem;
+    height: 1.5rem;
+    opacity: 0.4;
 }
 
 .input:focus {
@@ -131,13 +135,18 @@
 
 .input:hover {
     text-decoration: underline;
-    font-size: 1.1rem;
+}
+
+.arrow {
+    margin-left: 2rem;
+    height: 1.125rem;
+    width: 1.125rem;
 }
 
 .underLine {
     background-color: rgba(4, 120, 87, 1);
-    width: 301px;
+    width: 18.8125rem;
     height: 0.1rem;
-    margin-top: -2rem;
-    margin-right: 100px;
+    margin-top: -2.5rem;
+    margin-right: 6.25rem;
 }
