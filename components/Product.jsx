@@ -18,11 +18,14 @@ const Product = () => {
                 <div style={PlayfairDisplay.style} className={styles.h3}>
                     Sugar Scrubs
                 </div>
-                <p style={worksans.style} className={styles.para}>
-                    Sugar scrubs brighten tired, dull-looking skin to promote
-                    healthy, smooth, and flawless skin. Sugar scrubs also fight
-                    skin aging in a natural way.
-                </p>
+                <div style={worksans.style}>
+                    <p style={{ fontStyle: "italic" }} className={styles.para}>
+                        Sugar scrubs brighten tired, dull-looking skin to
+                        promote healthy, smooth, and flawless skin. Sugar scrubs
+                        also fight skin aging in a natural way.
+                    </p>
+                </div>
+
                 <div style={worksans.style} className={styles.ingredients}>
                     <div className={styles.title}>
                         <span className={styles.bold}>Ingredients:</span> brown
